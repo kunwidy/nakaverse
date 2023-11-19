@@ -34,7 +34,12 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #2E0249;
+  background: #3c045f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #3c045f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #3c045f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  /*background-color: #2E0249;*/
 }
 
 a {
@@ -174,6 +179,22 @@ main{
   visibility: visible;
   opacity: 1;
   bottom: 15px;
+}
+
+
+/*--------------------------------------------------------------
+# Nakanav
+--------------------------------------------------------------*/
+
+.naka-nav a img{
+  height: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 0.5s ease;
+}
+.naka-nav a img:hover{
+  height: 40px;
+  padding-bottom:5px;
 }
 
 /*--------------------------------------------------------------
@@ -824,6 +845,8 @@ main{
   .gallery-single .swiper-button-next {
     display: none;
   }
+
+  
 }
 
 .gallery-single .portfolio-info h3 {

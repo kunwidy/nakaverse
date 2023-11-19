@@ -47,23 +47,40 @@
          <img src="assets/img/naka-logo.png" alt="Nakaverse">
       </a>
 
-      <div class="naka-nav">
-        <a href="index.html">
-          <img src="assets/img/education.png" alt="Edukasi">
-        </a>
-        <a href="games.html">
-          <img src="assets/img/games.png" alt="Games">
-        </a>
-        <a href="merch.html">
-          <img src="assets/img/merch.png" alt="Merchandise">
-        </a>
-      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="gallery.html">Nature</a></li>
+              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery.html">Architecture</a></li>
+              <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li>
+              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="https://www.facebook.com/nakaverse.id" class="facebook"><i class="bi bi-facebook" target="_blank"></i></a>
-        <a href="https://www.instagram.com/nakaverse.id/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.youtube.com/@nakaverseid" class="YouTube" target="_blank"><i class="bi bi-youtube"></i></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
     </div>
   </header><!-- End Header -->
@@ -71,17 +88,22 @@
 
   <main id="main" data-aos="fade" data-aos-delay="1500">
 
+    <!-- ======= Nav Section ======= -->
+    <section class="navigator mt-2">
+      <div class="container d-flex align-items-center justify-content-center">
+          <div>Belajar</div>
+          <div>Doa</div>
+          <div>Permainan</div>
+      </div>
+    </section>
+
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container">
 
         <div class="row gy-4 justify-content-center">
 
-          <div class="col-lg-12">
-            <h2 class="text-center">Video Edukasi</h2>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item">
               <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
@@ -91,115 +113,128 @@
             <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
           </div><!-- End Gallery Item -->
 
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
               </div>
             </div>
             <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
           </div><!-- End Gallery Item -->
 
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item">
               <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
               </div>
             </div>
             <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
           </div><!-- End Gallery Item -->
 
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
               </div>
             </div>
             <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
           </div><!-- End Gallery Item -->
 
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
+              </div>
+            </div>
+            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="assets/img/thumbnail/naka-games-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
               </div>
             </div>
             <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
           </div><!-- End Gallery Item -->
 
-         <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
-
-         <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
-            <div class="gallery-item">
-              <img src="assets/img/thumbnail/naka-games-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="single-content.html" class="details-link"><i class="bi bi-play-circle-fill"></i></a>
-              </div>
-            </div>
-            <h5>Naka: Mengenal bulan Hijriah untuk anak</h5>
-          </div><!-- End Gallery Item -->
+          
 
         </div>
 
