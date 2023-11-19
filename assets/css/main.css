@@ -947,7 +947,6 @@ main{
 
 .side-thumbnail{
   max-height: 705px;
-  background: #000;
   overflow-y: scroll;
 }
 
@@ -1246,6 +1245,32 @@ main{
   .hero h2 {
     font-size: 32px;
   }
+}
+
+
+/*--------------------------------------------------------------
+# scrollbar
+--------------------------------------------------------------*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(254, 0, 98, 1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 /*--------------------------------------------------------------
